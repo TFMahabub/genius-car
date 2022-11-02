@@ -4,10 +4,10 @@ import parts from '../../../images/images/about_us/parts.jpg'
 
 const Image = () => {
   return (
-    <div className='md:mx-auto relative'>
-      <img className='md:max-h-80 rounded-lg' src={presone} alt="" />
-      <div className='hidden md:block md:absolute bg-[#fff] p-2 rounded-xl top-40 left-24 right-[-100px]'>
-       <img className='rounded-lg' src={parts} alt="" />
+    <div className='relative md:w-1/2'>
+      <img className='md:max-h-[340px] rounded-lg' src={presone} alt="" />
+      <div className='hidden md:block md:absolute bg-[#fff] p-2 rounded-xl top-40 left-24'>
+        <img className='md:max-h-48 rounded-lg' src={parts} alt="" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Text from './Text';
 
 const About = () => {
   return (
-    <div className='md:grid grid-cols-2 mt-16 md:mt-[120px]'>
+    <div className='md:flex md:items-center md:justify-between mt-16 md:mt-[120px]'>
       <Image></Image>
       <Text></Text> 
     </div>
